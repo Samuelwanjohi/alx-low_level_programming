@@ -1,6 +1,6 @@
 /**
  *File: main.h
- *Author: Arsene Awounou
+ *Author: sam wanjohi
  *Desc: header file
  */
 
@@ -16,4 +16,4 @@ int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
 int add(int n, int m);
-int print_last_digit(i
+int print_last_digit(int n);
