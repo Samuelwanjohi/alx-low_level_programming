@@ -3,25 +3,24 @@
 #include <time.h>
 
 /**
- * main - assign a random number to a variable
- * and prints its signed state
- *
- * Return: 0 if execution was successful
- */
+* main - Entry point
+*
+* Return: returns 0 when everything works fine
+*
+*/
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("%d is zero\n", n);
+		printf("%d is zero\n", n
+);
 	else
 		printf("%d is negative\n", n);
 	return (0);
 }
-Footer
-
