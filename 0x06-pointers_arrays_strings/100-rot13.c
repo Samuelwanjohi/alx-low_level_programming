@@ -44,5 +44,3 @@ char transform_2(char x)
 	}
 	return (replacement);
 }
-
-
